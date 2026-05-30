@@ -1,0 +1,59 @@
+2026-05-17 14:27:37 | INFO     | core.logger:initialize:97 | 日志系统初始化完成，日志级别: INFO
+2026-05-17 14:27:37 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 14:27:37 | INFO     | tools.tavily_search_tool:__init__:26 | Tavily搜索工具初始化完成
+2026-05-17 14:27:37 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 14:27:37 | INFO     | tools.tavily_search_tool:__init__:26 | Tavily搜索工具初始化完成
+2026-05-17 14:27:38 | INFO     | agents.qa_agent:__init__:52 | QA代理初始化完成，会话ID: 8e57def8-daef-4319-aef7-cd9acdcf7124
+2026-05-17 14:29:18 | INFO     | tools.amap_weather_tool:get_weather:83 | 成功获取 北京 的天气信息
+2026-05-17 14:36:13 | ERROR    | agents.qa_agent:chat:181 | 对话处理失败: Connection error.
+2026-05-17 14:40:40 | INFO     | tools.tavily_search_tool:search_news:40 | 开始搜索新闻: 人工智能最新发展
+2026-05-17 14:40:42 | ERROR    | tools.tavily_search_tool:search_news:89 | 搜索失败: 432 Client Error:  for url: https://api.tavily.com/search
+2026-05-17 14:47:18 | INFO     | agents.qa_agent:end_session:228 | 会话已结束: 8e57def8-daef-4319-aef7-cd9acdcf7124
+2026-05-17 14:48:57 | INFO     | core.logger:initialize:97 | 日志系统初始化完成，日志级别: INFO
+2026-05-17 14:48:57 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 14:51:09 | INFO     | core.logger:initialize:97 | 日志系统初始化完成，日志级别: INFO
+2026-05-17 14:51:09 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 14:51:09 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 14:51:09 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 14:51:09 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 14:51:10 | INFO     | agents.qa_agent:__init__:52 | QA代理初始化完成，会话ID: ec9b9dc9-2dbb-4528-9aac-68cbc3649575
+2026-05-17 14:51:17 | INFO     | tools.tavily_search_tool:search_news:41 | 开始搜索新闻: 财经
+2026-05-17 14:51:20 | INFO     | tools.tavily_search_tool:search_news:80 | 成功获取 5 条搜索结果
+2026-05-17 15:08:30 | INFO     | agents.qa_agent:end_session:228 | 会话已结束: ec9b9dc9-2dbb-4528-9aac-68cbc3649575
+2026-05-17 21:23:43 | INFO     | core.logger:initialize:97 | 日志系统初始化完成，日志级别: INFO
+2026-05-17 21:23:43 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 21:23:43 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 21:24:11 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 21:24:11 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 21:24:12 | INFO     | agents.qa_agent:__init__:52 | QA代理初始化完成，会话ID: 57078a64-7081-43fb-ad23-aa07bd3cfd5e
+2026-05-17 21:42:56 | INFO     | tools.amap_weather_tool:get_weather:83 | 成功获取 深圳 的天气信息
+2026-05-17 21:58:58 | INFO     | agents.qa_agent:end_session:228 | 会话已结束: 57078a64-7081-43fb-ad23-aa07bd3cfd5e
+2026-05-17 21:59:01 | INFO     | core.logger:initialize:97 | 日志系统初始化完成，日志级别: INFO
+2026-05-17 21:59:01 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 21:59:01 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 21:59:07 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 21:59:07 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 21:59:08 | INFO     | agents.qa_agent:__init__:52 | QA代理初始化完成，会话ID: 06cd6728-1c59-4441-ba6f-29e830eef2f3
+2026-05-17 22:01:17 | INFO     | agents.qa_agent:end_session:228 | 会话已结束: 06cd6728-1c59-4441-ba6f-29e830eef2f3
+2026-05-17 22:01:22 | INFO     | core.logger:initialize:97 | 日志系统初始化完成，日志级别: INFO
+2026-05-17 22:01:22 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 22:01:22 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 22:01:32 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 22:01:32 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 22:01:33 | INFO     | agents.qa_agent:__init__:52 | QA代理初始化完成，会话ID: 6cdd537a-42d1-40aa-b55b-da06dbbf6a26
+2026-05-17 22:02:13 | INFO     | tools.tavily_search_tool:search_news:41 | 开始搜索新闻: 最新新闻
+2026-05-17 22:02:19 | INFO     | tools.tavily_search_tool:search_news:80 | 成功获取 5 条搜索结果
+2026-05-17 22:02:49 | INFO     | tools.tavily_search_tool:search_news:41 | 开始搜索新闻: 最新新闻
+2026-05-17 22:02:54 | INFO     | tools.tavily_search_tool:search_news:80 | 成功获取 5 条搜索结果
+2026-05-17 22:03:20 | INFO     | agents.qa_agent:end_session:228 | 会话已结束: 6cdd537a-42d1-40aa-b55b-da06dbbf6a26
+2026-05-17 22:03:23 | INFO     | core.logger:initialize:97 | 日志系统初始化完成，日志级别: INFO
+2026-05-17 22:03:23 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 22:03:23 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 22:03:27 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 22:03:27 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成
+2026-05-17 22:03:28 | INFO     | agents.qa_agent:__init__:52 | QA代理初始化完成，会话ID: fd6d8fb9-c8f2-4a84-9f33-7bb3954c162d
+2026-05-17 22:04:38 | INFO     | tools.tavily_search_tool:search_news:41 | 开始搜索新闻: 最新新闻
+2026-05-17 22:04:40 | INFO     | tools.tavily_search_tool:search_news:80 | 成功获取 5 条搜索结果
+2026-05-17 22:45:17 | INFO     | core.logger:initialize:97 | 日志系统初始化完成，日志级别: INFO
+2026-05-17 22:45:17 | INFO     | tools.amap_weather_tool:__init__:46 | 高德天气工具初始化完成
+2026-05-17 22:45:17 | INFO     | tools.tavily_search_tool:__init__:27 | Tavily搜索工具初始化完成

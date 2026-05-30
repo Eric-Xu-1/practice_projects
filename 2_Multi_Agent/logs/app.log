@@ -1,0 +1,286 @@
+2026-05-17 22:48:02,342 - __main__ - INFO - 📋 最终使用的订单ID: ORD001
+2026-05-17 22:48:13,711 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-17 22:50:36,131 - __main__ - INFO - ✅ 订单查询成功展示 - 订单ID: ORD001, 状态: processing
+2026-05-17 22:50:36,145 - __main__ - INFO - ✅ 物流查询成功展示 - 单号: SF1234567890, 状态: in_transit
+2026-05-17 22:55:58,479 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-17 23:05:16,710 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-17 23:05:18,597 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-17 23:05:22,290 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-17 23:05:39,234 - __main__ - WARNING - 订单查询失败: 订单服务暂时不可用，请稍后再试
+2026-05-17 23:05:39,258 - __main__ - INFO - ✅ 物流查询成功展示 - 单号: YTO9876543210, 状态: out_for_delivery
+2026-05-17 23:05:42,297 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-17 23:14:26,018 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-17 23:14:27,802 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-17 23:14:31,154 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-17 23:14:33,495 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-17 23:14:33,556 - __main__ - ERROR - AutoGen智能体处理失败: 'AssistantAgent' object has no attribute 'register_hook'
+2026-05-17 23:14:43,724 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-17 23:14:53,577 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-17 23:14:53,578 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-17 23:14:56,593 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-17 23:32:30,320 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-17 23:38:26,480 - __main__ - ERROR - AutoGen智能体处理失败: 'AssistantAgent' object has no attribute 'register_hook'
+2026-05-17 23:38:29,397 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-17 23:38:52,260 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-17 23:38:52,260 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-17 23:38:55,279 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-17 23:38:55,287 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-17 23:38:55,320 - __main__ - ERROR - AutoGen智能体处理失败: 'AssistantAgent' object has no attribute 'register_hook'
+2026-05-17 23:38:55,320 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-17 23:45:00,411 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-17 23:45:00,412 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-17 23:45:03,426 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-17 23:45:03,437 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-17 23:45:07,947 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-17 23:45:07,949 - agents.autogen_agents - ERROR - ❌ Agent [物流查询工具] 执行错误: 物流查询系统暂时不可用，请稍后重试或联系客服。错误信息: Cannot run the event loop while another loop is running
+2026-05-17 23:45:07,951 - agents.autogen_agents - ERROR - ❌ 物流查询异常: ORD002 -> Cannot run the event loop while another loop is running
+2026-05-17 23:45:12,197 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:45:12,200 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-17 23:45:12,200 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:45:20,380 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:45:20,381 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:45:20,381 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:45:34,949 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:45:34,949 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:45:34,951 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:45:53,752 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:45:53,754 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:45:53,754 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:46:03,072 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:46:03,074 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:46:03,074 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:46:12,513 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:46:12,515 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:46:12,515 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:46:30,046 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:46:30,047 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:46:30,047 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:46:44,785 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:46:44,786 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:46:44,786 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:46:51,566 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-17 23:48:35,202 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-17 23:48:35,759 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-17 23:48:39,213 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-17 23:48:49,132 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-17 23:49:37,085 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-17 23:49:37,098 - agents.autogen_agents - ERROR - ❌ Agent [物流查询工具] 执行错误: 物流查询系统暂时不可用，请稍后重试或联系客服。错误信息: Cannot run the event loop while another loop is running
+2026-05-17 23:49:37,099 - agents.autogen_agents - ERROR - ❌ 物流查询异常: ORD002 -> Cannot run the event loop while another loop is running
+2026-05-17 23:49:37,144 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:49:37,144 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-17 23:49:37,144 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:49:37,223 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:49:37,223 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:49:37,223 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:49:37,374 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:49:37,379 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:49:37,379 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:49:37,579 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:49:37,585 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:49:37,586 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:49:37,709 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:49:37,714 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:49:37,715 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:49:37,808 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:49:37,813 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:49:37,813 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:49:37,985 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:49:37,991 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:49:37,991 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:49:38,152 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:49:38,158 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:49:38,158 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:49:42,653 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-17 23:56:23,128 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-17 23:56:23,130 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-17 23:56:26,141 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-17 23:56:26,152 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-17 23:56:26,249 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-17 23:56:26,250 - agents.autogen_agents - ERROR - ❌ Agent [物流查询工具] 执行错误: 物流查询系统暂时不可用，请稍后重试或联系客服。错误信息: Cannot run the event loop while another loop is running
+2026-05-17 23:56:26,251 - agents.autogen_agents - ERROR - ❌ 物流查询异常: ORD002 -> Cannot run the event loop while another loop is running
+2026-05-17 23:56:26,283 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:56:26,285 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-17 23:56:26,286 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:56:26,336 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:56:26,337 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:56:26,337 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:56:26,454 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:56:26,455 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:56:26,455 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:56:26,615 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:56:26,616 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:56:26,617 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:56:26,716 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:56:26,717 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:56:26,717 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:56:26,795 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:56:26,797 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:56:26,797 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:56:26,931 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:56:26,931 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:56:26,931 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:56:27,060 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-17 23:56:27,061 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-17 23:56:27,061 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-17 23:56:27,109 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:01:38,832 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:01:38,833 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:01:41,852 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:01:41,864 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:01:47,585 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-18 00:01:47,587 - agents.autogen_agents - ERROR - ❌ Agent [物流查询工具] 执行错误: 物流查询系统暂时不可用，请稍后重试或联系客服。错误信息: Cannot run the event loop while another loop is running
+2026-05-18 00:01:47,589 - agents.autogen_agents - ERROR - ❌ 物流查询异常: ORD002 -> Cannot run the event loop while another loop is running
+2026-05-18 00:01:51,677 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:01:51,679 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:01:51,679 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:02:12,966 - __main__ - ERROR - AutoGen智能体处理失败: Error code: 403 - {'error': {'message': '用户额度不足 (request id: 2026051800021249257091211028639)', 'type': 'v_api_error', 'param': '', 'code': 'pre_consume_token_quota_failed'}}
+2026-05-18 00:02:12,966 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:02:40,136 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:02:40,136 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:02:43,152 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:02:43,161 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:02:43,968 - __main__ - ERROR - AutoGen智能体处理失败: Error code: 403 - {'error': {'message': 'user quota is not enough, quota: ＄0.053078, need: ＄0.066072 (request id: 2026051800024349713001091086354)', 'type': 'v_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2026-05-18 00:02:43,968 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:03:17,711 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:03:17,711 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:03:20,723 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:03:20,734 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:03:21,528 - __main__ - ERROR - AutoGen智能体处理失败: Error code: 403 - {'error': {'message': 'user quota is not enough, quota: ＄0.053078, need: ＄0.066072 (request id: 202605180003215526328966196319)', 'type': 'v_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2026-05-18 00:03:21,528 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:09:48,883 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:09:48,883 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:09:51,900 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:09:51,911 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:09:52,718 - __main__ - ERROR - AutoGen智能体处理失败: Error code: 403 - {'error': {'message': 'user quota is not enough, quota: ＄0.053078, need: ＄0.066072 (request id: 2026051800095224400025340698743)', 'type': 'v_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2026-05-18 00:09:52,719 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:10:54,381 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:10:54,381 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:10:57,398 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:10:57,409 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:10:58,224 - __main__ - ERROR - AutoGen智能体处理失败: Error code: 403 - {'error': {'message': 'user quota is not enough, quota: ＄0.053078, need: ＄0.066072 (request id: 2026051800105774368220920871374)', 'type': 'v_api_error', 'param': '', 'code': 'insufficient_user_quota'}}
+2026-05-18 00:10:58,226 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:12:39,843 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:12:39,844 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:12:42,856 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:12:42,861 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:12:46,792 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-18 00:12:46,794 - agents.autogen_agents - ERROR - ❌ Agent [物流查询工具] 执行错误: 物流查询系统暂时不可用，请稍后重试或联系客服。错误信息: Cannot run the event loop while another loop is running
+2026-05-18 00:12:46,795 - agents.autogen_agents - ERROR - ❌ 物流查询异常: ORD002 -> Cannot run the event loop while another loop is running
+2026-05-18 00:12:50,904 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:12:50,908 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:12:50,908 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:13:02,879 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:13:02,882 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:13:02,882 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:13:33,675 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:13:33,677 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:13:33,678 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:13:46,069 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:13:46,073 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:13:46,073 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:13:48,296 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:16:34,290 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:16:34,290 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:16:37,295 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:16:37,307 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:16:42,734 - agents.autogen_agents - INFO - 🚀 Agent [订单查询工具] 开始执行任务 #1 - 开始查询订单: ORD002
+2026-05-18 00:16:43,224 - agents.autogen_agents - INFO - 📦 订单查询成功 - 订单ID: ORD002
+2026-05-18 00:16:43,225 - agents.autogen_agents - INFO - 📊 订单详情 - 状态: shipped, 金额: ¥1299.0
+2026-05-18 00:16:43,225 - agents.autogen_agents - INFO - 👤 客户信息 - 姓名: 李四, 地址: 上海市浦东新区xxx路xxx号
+2026-05-18 00:16:43,226 - agents.autogen_agents - INFO - 🛍️ 商品列表: 蓝牙耳机, 充电线
+2026-05-18 00:16:43,226 - agents.autogen_agents - INFO - ✅ Agent [订单查询工具] 任务完成 - 耗时: 0.49s
+2026-05-18 00:16:43,226 - agents.autogen_agents - INFO - 📋 Agent [订单查询工具] 任务结果: 订单查询成功: ORD002
+2026-05-18 00:16:48,185 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-18 00:16:48,187 - agents.autogen_agents - ERROR - ❌ Agent [物流查询工具] 执行错误: 物流查询系统暂时不可用，请稍后重试或联系客服。错误信息: Cannot run the event loop while another loop is running
+2026-05-18 00:16:48,188 - agents.autogen_agents - ERROR - ❌ 物流查询异常: ORD002 -> Cannot run the event loop while another loop is running
+2026-05-18 00:16:58,278 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:16:58,281 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:16:58,281 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:17:08,105 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:17:08,108 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:17:08,108 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:17:18,258 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:17:18,260 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:17:18,261 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:17:22,315 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:17:22,317 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:17:22,318 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:17:33,179 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:17:33,181 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:17:33,181 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:17:38,822 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-18 00:17:38,823 - agents.autogen_agents - ERROR - ❌ Agent [物流查询工具] 执行错误: 物流查询系统暂时不可用，请稍后重试或联系客服。错误信息: Cannot run the event loop while another loop is running
+2026-05-18 00:17:38,825 - agents.autogen_agents - ERROR - ❌ 物流查询异常: ORD002 -> Cannot run the event loop while another loop is running
+2026-05-18 00:17:48,072 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:17:48,075 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:17:48,075 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:17:53,791 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:17:53,793 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:17:53,793 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:17:59,409 - agents.autogen_agents - INFO - 🧠 Agent [物流跟踪专员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:17:59,411 - agents.autogen_agents - INFO - ✅ Agent [物流跟踪专员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:17:59,411 - agents.autogen_agents - INFO - 📋 Agent [物流跟踪专员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:18:03,614 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:18:03,617 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:18:03,617 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:18:08,080 - agents.autogen_agents - INFO - 🧠 Agent [物流跟踪专员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:18:08,084 - agents.autogen_agents - INFO - ✅ Agent [物流跟踪专员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:18:08,084 - agents.autogen_agents - INFO - 📋 Agent [物流跟踪专员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:18:13,444 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:18:13,448 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:18:13,448 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:18:15,984 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:22:36,064 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:22:36,065 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:22:39,076 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:22:39,088 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:22:43,059 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-18 00:22:43,061 - agents.autogen_agents - ERROR - ❌ Agent [物流查询工具] 执行错误: 物流查询系统暂时不可用，请稍后重试或联系客服。错误信息: argument of type 'coroutine' is not iterable
+2026-05-18 00:22:43,062 - agents.autogen_agents - ERROR - ❌ 物流查询异常: ORD002 -> argument of type 'coroutine' is not iterable
+2026-05-18 00:22:49,084 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:22:49,089 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:22:49,089 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:23:00,170 - agents.autogen_agents - INFO - 🧠 Agent [物流跟踪专员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:23:00,174 - agents.autogen_agents - INFO - ✅ Agent [物流跟踪专员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:23:00,174 - agents.autogen_agents - INFO - 📋 Agent [物流跟踪专员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:23:07,746 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:23:07,748 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:23:07,749 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:23:16,517 - agents.autogen_agents - INFO - 🚀 Agent [订单查询工具] 开始执行任务 #1 - 开始查询订单: ORD002
+2026-05-18 00:23:18,544 - agents.autogen_agents - ERROR - ❌ Agent [订单查询工具] 执行错误: 订单不存在: ORD002
+2026-05-18 00:23:18,546 - agents.autogen_agents - WARNING - ❌ 订单不存在: ORD002
+2026-05-18 00:23:24,149 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:23:24,153 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:23:24,153 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:23:34,111 - agents.autogen_agents - INFO - 🚀 Agent [订单查询工具] 开始执行任务 #1 - 开始查询订单: ORD002
+2026-05-18 00:23:36,156 - agents.autogen_agents - ERROR - ❌ Agent [订单查询工具] 执行错误: 订单不存在: ORD002
+2026-05-18 00:23:36,159 - agents.autogen_agents - WARNING - ❌ 订单不存在: ORD002
+2026-05-18 00:23:41,653 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:23:41,659 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:23:41,660 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:23:46,063 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:23:46,066 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:23:46,066 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:23:57,225 - agents.autogen_agents - INFO - 🧠 Agent [客服接待员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:23:57,228 - agents.autogen_agents - INFO - ✅ Agent [客服接待员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:23:57,228 - agents.autogen_agents - INFO - 📋 Agent [客服接待员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:24:04,877 - __main__ - INFO - FastAPI模拟服务已关闭
+2026-05-18 00:26:16,905 - __main__ - INFO - 🔍 从查询中提取到订单ID: ORD002
+2026-05-18 00:26:16,906 - __main__ - INFO - 📋 最终使用的订单ID: ORD002
+2026-05-18 00:26:19,918 - __main__ - INFO - FastAPI模拟服务已启动
+2026-05-18 00:26:19,929 - agents.autogen_agents - INFO - 创建AutoGen智能体
+2026-05-18 00:26:26,608 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-18 00:26:32,122 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:26:32,125 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:26:32,126 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:27:00,060 - agents.autogen_agents - INFO - 🧠 Agent [物流跟踪专员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:27:00,061 - agents.autogen_agents - INFO - ✅ Agent [物流跟踪专员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:27:00,061 - agents.autogen_agents - INFO - 📋 Agent [物流跟踪专员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:27:00,063 - agents.autogen_agents - INFO - 🚀 Agent [物流查询工具] 开始执行任务 #1 - 开始查询物流: ORD002
+2026-05-18 00:27:08,601 - agents.autogen_agents - INFO - 🧠 Agent [客服主管] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:27:08,604 - agents.autogen_agents - INFO - ✅ Agent [客服主管] 任务完成 - 耗时: 0.00s
+2026-05-18 00:27:08,604 - agents.autogen_agents - INFO - 📋 Agent [客服主管] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:27:15,026 - agents.autogen_agents - INFO - 🧠 Agent [物流跟踪专员] 思考中: 正在生成回复给 chat_manager
+2026-05-18 00:27:15,031 - agents.autogen_agents - INFO - ✅ Agent [物流跟踪专员] 任务完成 - 耗时: 0.00s
+2026-05-18 00:27:15,031 - agents.autogen_agents - INFO - 📋 Agent [物流跟踪专员] 任务结果: 已发送回复给 chat_manager
+2026-05-18 00:27:18,626 - __main__ - INFO - FastAPI模拟服务已关闭

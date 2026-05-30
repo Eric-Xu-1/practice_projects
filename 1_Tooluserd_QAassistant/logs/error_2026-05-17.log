@@ -1,0 +1,2 @@
+2026-05-17 14:36:13 | ERROR    | agents.qa_agent:chat:181 | 对话处理失败: Connection error.
+2026-05-17 14:40:42 | ERROR    | tools.tavily_search_tool:search_news:89 | 搜索失败: 432 Client Error:  for url: https://api.tavily.com/search
