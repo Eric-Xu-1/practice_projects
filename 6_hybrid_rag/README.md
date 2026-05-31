@@ -37,6 +37,50 @@ project3_2/
 └── README.md               # 项目说明
 ```
 
+## 功能流程图
+```mermaid
+
+graph TD
+    Query[用户查询] --> MultiSource[多源检索]
+    
+    MultiSource --> Vector[向量检索]
+    MultiSource --> Keyword[关键词检索]
+    MultiSource --> Graph[图谱推理]
+    
+    Graph --> Path1[1跳路径]
+    Graph --> Path2[2跳路径]
+    Path1 --> Merge[合并结果]
+    Path2 --> Merge
+    
+    Vector --> CrossValidate[交叉验证]
+    Keyword --> CrossValidate
+    Merge --> CrossValidate
+    
+    CrossValidate --> JointScore[联合评分]
+    JointScore --> Threshold[置信度阈值过滤]
+    
+    Threshold -->|score >= 0.3| ErrorGuard[错误传播防护]
+    Threshold -->|score < 0.3| FilterOut[过滤低分结果]
+    
+    ErrorGuard -->|检查各模块| AnomalyDetect[异常检测]
+    AnomalyDetect -->|发现异常| Warning[生成警告]
+    AnomalyDetect -->|正常| Generate[生成答案]
+    
+    Warning --> Degradation[降级处理]
+    Degradation -->|完全失败| EmptyResult[返回空结果]
+    Degradation -->|部分失败| PartialResult[返回部分结果]
+    
+    Generate --> FinalAnswer[最终答案]
+    EmptyResult --> FinalAnswer
+    PartialResult --> FinalAnswer
+    
+    style Threshold fill:#fff3e0
+    style CrossValidate fill:#e3f2fd
+    style AnomalyDetect fill:#ffebee
+    style Degradation fill:#f3e5f5
+```
+
+
 ## 快速开始
 
 ### 1. 环境配置
